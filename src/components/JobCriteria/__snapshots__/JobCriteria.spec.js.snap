@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Form should render as expected, without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <JobCriteria />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Form
+        formState={
+          Object {
+            "educations": Array [],
+            "experience": "",
+            "hours": Object {
+              "max": "",
+              "min": "",
+            },
+            "isFormSaved": false,
+          }
+        }
+        handleSubmitSuccess={[Function]}
+        onChange={[Function]}
+      />,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "formState": Object {
+          "educations": Array [],
+          "experience": "",
+          "hours": Object {
+            "max": "",
+            "min": "",
+          },
+          "isFormSaved": false,
+        },
+        "handleSubmitSuccess": [Function],
+        "onChange": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-fjdhpX",
+        "isStatic": true,
+        "rules": Array [
+          "
+  background: white;
+  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.12), 0 1px 2px hsla(0, 0%, 0%, 0.24);
+  border-radius: 4px;
+  width: 640px;
+  padding: 32px;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-fjdhpX",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Form
+          formState={
+            Object {
+              "educations": Array [],
+              "experience": "",
+              "hours": Object {
+                "max": "",
+                "min": "",
+              },
+              "isFormSaved": false,
+            }
+          }
+          handleSubmitSuccess={[Function]}
+          onChange={[Function]}
+        />,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "formState": Object {
+            "educations": Array [],
+            "experience": "",
+            "hours": Object {
+              "max": "",
+              "min": "",
+            },
+            "isFormSaved": false,
+          },
+          "handleSubmitSuccess": [Function],
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-fjdhpX",
+          "isStatic": true,
+          "rules": Array [
+            "
+  background: white;
+  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.12), 0 1px 2px hsla(0, 0%, 0%, 0.24);
+  border-radius: 4px;
+  width: 640px;
+  padding: 32px;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-fjdhpX",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

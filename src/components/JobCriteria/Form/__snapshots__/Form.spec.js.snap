@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Form should render as expected, without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Form
+    formState={
+      Object {
+        "educations": Array [],
+        "experience": "",
+        "hours": Object {
+          "max": "",
+          "min": "",
+        },
+      }
+    }
+    handleSubmitSuccess={[MockFunction]}
+    onChange={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <FormHeader
+          badge={
+            Object {
+              "color": "#A986E6",
+              "value": "1",
+            }
+          }
+          helper="We will use the data we collect here to better target your desired audience"
+          title="Job criteria"
+        />,
+        <InputField
+          error=""
+          label="A minimum No. years of experience"
+          min="0"
+          name="experience"
+          onChange={[Function]}
+          type="number"
+          value=""
+        />,
+        <CheckboxesField
+          checkboxes={
+            Array [
+              Object {
+                "label": "Bachelor / Graduate",
+                "name": "bachelor",
+              },
+              Object {
+                "label": "GCSE / A-Level / Highschool / GED",
+                "name": "gcse",
+              },
+              Object {
+                "label": "Master / Post-Graduate / PhD",
+                "name": "master",
+              },
+              Object {
+                "label": "Vocational / Diploma / Associates degree",
+                "name": "vocational",
+              },
+            ]
+          }
+          error=""
+          label="Level of education"
+          onChange={[Function]}
+          state={Array []}
+        />,
+        <RangeInputField
+          error=""
+          label="No. of working hours (per week)"
+          leftError=""
+          leftName="min"
+          onChange={[Function]}
+          rightError=""
+          rightName="max"
+          state={
+            Object {
+              "max": "",
+              "min": "",
+            }
+          }
+        />,
+        <ForwardRef>
+          <Button
+            disabled={false}
+            loading={false}
+            type="submit"
+          >
+            Save
+          </Button>
+        </ForwardRef>,
+      ],
+      "onSubmit": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "badge": Object {
+            "color": "#A986E6",
+            "value": "1",
+          },
+          "helper": "We will use the data we collect here to better target your desired audience",
+          "title": "Job criteria",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "error": "",
+          "label": "A minimum No. years of experience",
+          "min": "0",
+          "name": "experience",
+          "onChange": [Function],
+          "type": "number",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "checkboxes": Array [
+            Object {
+              "label": "Bachelor / Graduate",
+              "name": "bachelor",
+            },
+            Object {
+              "label": "GCSE / A-Level / Highschool / GED",
+              "name": "gcse",
+            },
+            Object {
+              "label": "Master / Post-Graduate / PhD",
+              "name": "master",
+            },
+            Object {
+              "label": "Vocational / Diploma / Associates degree",
+              "name": "vocational",
+            },
+          ],
+          "error": "",
+          "label": "Level of education",
+          "onChange": [Function],
+          "state": Array [],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "error": "",
+          "label": "No. of working hours (per week)",
+          "leftError": "",
+          "leftName": "min",
+          "onChange": [Function],
+          "rightError": "",
+          "rightName": "max",
+          "state": Object {
+            "max": "",
+            "min": "",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Button
+            disabled={false}
+            loading={false}
+            type="submit"
+          >
+            Save
+          </Button>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Save",
+            "disabled": false,
+            "loading": false,
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": "Save",
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-gZMcBi",
+            "isStatic": true,
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: flex-end;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-gZMcBi",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": "form",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <FormHeader
+            badge={
+              Object {
+                "color": "#A986E6",
+                "value": "1",
+              }
+            }
+            helper="We will use the data we collect here to better target your desired audience"
+            title="Job criteria"
+          />,
+          <InputField
+            error=""
+            label="A minimum No. years of experience"
+            min="0"
+            name="experience"
+            onChange={[Function]}
+            type="number"
+            value=""
+          />,
+          <CheckboxesField
+            checkboxes={
+              Array [
+                Object {
+                  "label": "Bachelor / Graduate",
+                  "name": "bachelor",
+                },
+                Object {
+                  "label": "GCSE / A-Level / Highschool / GED",
+                  "name": "gcse",
+                },
+                Object {
+                  "label": "Master / Post-Graduate / PhD",
+                  "name": "master",
+                },
+                Object {
+                  "label": "Vocational / Diploma / Associates degree",
+                  "name": "vocational",
+                },
+              ]
+            }
+            error=""
+            label="Level of education"
+            onChange={[Function]}
+            state={Array []}
+          />,
+          <RangeInputField
+            error=""
+            label="No. of working hours (per week)"
+            leftError=""
+            leftName="min"
+            onChange={[Function]}
+            rightError=""
+            rightName="max"
+            state={
+              Object {
+                "max": "",
+                "min": "",
+              }
+            }
+          />,
+          <ForwardRef>
+            <Button
+              disabled={false}
+              loading={false}
+              type="submit"
+            >
+              Save
+            </Button>
+          </ForwardRef>,
+        ],
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "badge": Object {
+              "color": "#A986E6",
+              "value": "1",
+            },
+            "helper": "We will use the data we collect here to better target your desired audience",
+            "title": "Job criteria",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "error": "",
+            "label": "A minimum No. years of experience",
+            "min": "0",
+            "name": "experience",
+            "onChange": [Function],
+            "type": "number",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "checkboxes": Array [
+              Object {
+                "label": "Bachelor / Graduate",
+                "name": "bachelor",
+              },
+              Object {
+                "label": "GCSE / A-Level / Highschool / GED",
+                "name": "gcse",
+              },
+              Object {
+                "label": "Master / Post-Graduate / PhD",
+                "name": "master",
+              },
+              Object {
+                "label": "Vocational / Diploma / Associates degree",
+                "name": "vocational",
+              },
+            ],
+            "error": "",
+            "label": "Level of education",
+            "onChange": [Function],
+            "state": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "error": "",
+            "label": "No. of working hours (per week)",
+            "leftError": "",
+            "leftName": "min",
+            "onChange": [Function],
+            "rightError": "",
+            "rightName": "max",
+            "state": Object {
+              "max": "",
+              "min": "",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Button
+              disabled={false}
+              loading={false}
+              type="submit"
+            >
+              Save
+            </Button>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Save",
+              "disabled": false,
+              "loading": false,
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Save",
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-gZMcBi",
+              "isStatic": true,
+              "rules": Array [
+                "
+  display: flex;
+  justify-content: flex-end;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-gZMcBi",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": "form",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
