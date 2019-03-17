@@ -15,7 +15,6 @@ To save time:
 - Unit test coverage is low since I only wrote tests for the most complex
   components (see [Unit-tests](#unit-tests) section below).
 - CSS Grid was not used to facilitate IE11 support.
-- App is not mobile friendly (layout works for sreen-widths > 700px).
 - Considering the design mockups, the primary button in the Form has a cyan
   background. For the summary view, the button color is blue. I opted to use
   the same button on both views.
