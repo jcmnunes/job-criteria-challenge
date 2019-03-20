@@ -16,10 +16,10 @@ To save time:
   components (see [Unit-tests](#unit-tests) section below).
 - CSS Grid was not used to facilitate IE11 support.
 - Considering the design mockups, the primary button in the Form has a cyan
-  background. For the summary view, the button color is blue. I opted to use
-  the same button on both views.
+  background. For the summary view, the button color is blue. I opted to use the
+  same button on both views.
 
-## Unit-tests 
+## Unit-tests
 
 I wrote some unit-test using Jest and Enzyme. The tests are:
 

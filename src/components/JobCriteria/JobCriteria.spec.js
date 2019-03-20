@@ -11,7 +11,7 @@ describe('Components', () => {
       expect(wrapper).toMatchSnapshot();
     });
 
-    it('should render the Form is form is not saved', () => {
+    it('should render the Form if form is not saved', () => {
       const wrapper = shallow(<JobCriteria />);
 
       expect(wrapper.find('Form')).toHaveLength(1);
